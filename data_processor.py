@@ -18,13 +18,13 @@ class DataProcessor:
     def load_data(self):
         """Load all CSV data files"""
         try:
-            self.revenue_data = pd.read_csv('data/year_wise_revenue.csv')
-            self.expenditure_data = pd.read_csv('data/year_wise_expenditures.csv')
-            self.budget_summary = pd.read_csv('data/budget_summary.csv')
-            self.detailed_expenditures = pd.read_csv('data/expenditures_detailed.csv')
-            self.detailed_revenues = pd.read_csv('data/revenues_detailed.csv')
-            self.scheme_outcomes = pd.read_csv('data/scheme_outcomes.csv')
-            self.speeches = pd.read_csv('data/speeches.csv')
+            self.revenue_data = pd.read_csv('year_wise_revenue.csv')
+            self.expenditure_data = pd.read_csv('year_wise_expenditures.csv')
+            self.budget_summary = pd.read_csv('budget_summary.csv')
+            self.detailed_expenditures = pd.read_csv('expenditures_detailed.csv')
+            self.detailed_revenues = pd.read_csv('revenues_detailed.csv')
+            self.scheme_outcomes = pd.read_csv('scheme_outcomes.csv')
+            self.speeches = pd.read_csv('speeches.csv')
             
             # Clean and process data
             self._clean_data()
