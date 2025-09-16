@@ -1,0 +1,21 @@
+serial,year,source_category,source_detail,amount_in_crores,estimate_type
+1,2025,Tax Revenue,Goods and Services Tax,1050000,BE
+2,2025,Tax Revenue,Income Tax,980000,BE
+3,2024,Tax Revenue,Goods and Services Tax,956600,BE
+4,2024,Tax Revenue,Income Tax,900575,BE
+5,2023,Tax Revenue,Corporation Tax,835000,RE
+6,2023,Tax Revenue,Goods and Services Tax,854000,RE
+7,2022,Tax Revenue,Corporation Tax,720000,A
+8,2022,Tax Revenue,Income Tax,700000,A
+9,2021,Tax Revenue,Goods and Services Tax,590034,A
+10,2021,Non-Tax Revenue,Dividends and Profits,96874,A
+11,2020,Tax Revenue,Corporation Tax,547284,A
+12,2020,Tax Revenue,Customs,138981,A
+13,2019,Tax Revenue,Goods and Services Tax,663343,A
+14,2019,Non-Tax Revenue,Other Non-Tax Revenue,149630,A
+15,2018,Tax Revenue,Corporation Tax,621024,A
+16,2018,Tax Revenue,Income Tax,486518,A
+17,2017,Tax Revenue,Union Excise Duties,382717,A
+18,2017,Tax Revenue,Service Tax,254350,A
+19,2016,Tax Revenue,Corporation Tax,454217,A
+20,2016,Tax Revenue,Income Tax,352922,A

@@ -1,0 +1,21 @@
+S. No.,year,ministry_name,department_name,grant_or_scheme_name,amount_in_crores,expenditure_type,estimate_type
+1,2025,Ministry of Defence,,Capital Outlay on Defence Services,180000,Capital,BE
+2,2025,Ministry of Education,Department of School Education,PM POSHAN,13500,Revenue,BE
+3,2024,Ministry of Defence,,Defence Pensions,138205,Revenue,BE
+4,2024,Ministry of Road Transport and Highways,,National Highways Authority of India,162207,Capital,BE
+5,2023,Ministry of Consumer Affairs Food and,,Food Subsidy,197350,Revenue,RE
+6,2023,Ministry of Home Affairs,,Police,127757,Revenue,RE
+7,2022,Ministry of Agriculture and Farmers,,PM-KISAN,68000,Revenue,A
+8,2022,Ministry of Health and Family Welfare,,National Health Mission,37800,Revenue,A
+9,2021,Ministry of Rural Development,,Mahatma Gandhi National Rural Employment Guarantee,73000,Revenue,A
+10,2021,Ministry of Finance,,Interest Payments,692882,Revenue,A
+11,2020,Ministry of Railways,,Capital Outlay for Railways,70250,Capital,A
+12,2020,Ministry of Defence,,Defence Services (Revenues),209319,Revenue,A
+13,2019,Ministry of Finance,,Transfers to States,555627,Revenue,A
+14,2019,Ministry of Home Affairs,,Police,103803,Revenue,A
+15,2018,Ministry of Consumer Affairs Food and,,Food Subsidy,169323,Revenue,A
+16,2018,Ministry of Defence,,Pensions,108853,Revenue,A
+17,2017,Ministry of Finance,,Interest Payments,492670,Revenue,A
+18,2017,Ministry of Railways,,Capital Outlay for Railways,121000,Capital,A
+19,2016,Ministry of Road Transport and Highways,,Capital Outlay on Roads and Bridges,57976,Capital,A
+20,2016,Ministry of Rural Development,,Pradhan Mantri Gram Sadak Yojana,19000,Capital,A
