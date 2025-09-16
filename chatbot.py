@@ -9,7 +9,20 @@ from typing import Dict, List, Any
 class BudgetChatbot:
     def __init__(self, data_processor: DataProcessor):
         # Using Gemini API as requested by user - gemini-2.5-flash is the newest model
-        self.gemini_client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
+        # MODIFIED: Use st.secrets for deployment and fallback to os.getenv for local dev
+        try:
+            # This will be used when deployed on Streamlit Community Cloud
+            api_key = st.secrets["GEMINI_API_KEY"]
+        except (KeyError, FileNotFoundError):
+            # This is a fallback for local development
+            api_key = os.getenv("GEMINI_API_KEY")
+
+        if not api_key:
+            st.error("GEMINI_API_KEY not found. Please set it in Streamlit secrets or as an environment variable.")
+            # Stop the app from crashing if the key is not found
+            st.stop()
+            
+        self.gemini_client = genai.Client(api_key=api_key)
         self.data_processor = data_processor
         self.conversation_history = []
         
