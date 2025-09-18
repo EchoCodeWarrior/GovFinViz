@@ -11,7 +11,7 @@ GovFinViz is a cutting-edge, interactive web application designed for the in-dep
 
 The standout feature is an **AI-powered Budget Assistant**, which allows users to ask questions about the budget in plain English and receive instant, data-driven answers.
 
-### 🚀 [**View the Live Demo**](https://www.google.com/search?q=https://your-app-name.streamlit.app/)
+### 🚀 [**View the Live Demo**](https://gov-fin-viz.streamlit.app/)
 
 -----
 
